@@ -3,17 +3,12 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    //room camera
-    [SerializeField] private float speed;
-    private float currentPosX;
-    private Vector3 velocity = Vector3.zero;
-
-
-    //player camera
+    // player camera
     [SerializeField] private Transform player;
     [SerializeField] private float aheadDistance;
     [SerializeField] private float cameraSpeed;
     private float lookAhead;
+    private float currentPosX;
 
     private void Update()
     {

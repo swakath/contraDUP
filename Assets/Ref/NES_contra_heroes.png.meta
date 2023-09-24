@@ -1,0 +1,2891 @@
+fileFormatVersion: 2
+guid: 56f9fd5cebfe080498e2fd262f08451d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: NES_contra_heroes_0
+  - first:
+      213: 21300002
+    second: NES_contra_heroes_1
+  - first:
+      213: 21300004
+    second: NES_contra_heroes_2
+  - first:
+      213: 21300006
+    second: NES_contra_heroes_3
+  - first:
+      213: 21300008
+    second: NES_contra_heroes_4
+  - first:
+      213: 21300010
+    second: NES_contra_heroes_5
+  - first:
+      213: 21300012
+    second: NES_contra_heroes_6
+  - first:
+      213: 21300014
+    second: NES_contra_heroes_7
+  - first:
+      213: 21300016
+    second: NES_contra_heroes_8
+  - first:
+      213: 21300018
+    second: NES_contra_heroes_9
+  - first:
+      213: 21300020
+    second: NES_contra_heroes_10
+  - first:
+      213: 21300022
+    second: NES_contra_heroes_11
+  - first:
+      213: 21300024
+    second: NES_contra_heroes_12
+  - first:
+      213: 21300026
+    second: NES_contra_heroes_13
+  - first:
+      213: 21300028
+    second: NES_contra_heroes_14
+  - first:
+      213: 21300030
+    second: NES_contra_heroes_15
+  - first:
+      213: 21300032
+    second: NES_contra_heroes_16
+  - first:
+      213: 21300034
+    second: NES_contra_heroes_17
+  - first:
+      213: 21300036
+    second: NES_contra_heroes_18
+  - first:
+      213: 21300038
+    second: NES_contra_heroes_19
+  - first:
+      213: 21300040
+    second: NES_contra_heroes_20
+  - first:
+      213: 21300042
+    second: NES_contra_heroes_21
+  - first:
+      213: 21300044
+    second: NES_contra_heroes_22
+  - first:
+      213: 21300046
+    second: NES_contra_heroes_23
+  - first:
+      213: 21300048
+    second: NES_contra_heroes_24
+  - first:
+      213: 21300050
+    second: NES_contra_heroes_25
+  - first:
+      213: 21300052
+    second: NES_contra_heroes_26
+  - first:
+      213: 21300054
+    second: NES_contra_heroes_27
+  - first:
+      213: 21300056
+    second: NES_contra_heroes_28
+  - first:
+      213: 21300058
+    second: NES_contra_heroes_29
+  - first:
+      213: 21300060
+    second: NES_contra_heroes_30
+  - first:
+      213: 21300062
+    second: NES_contra_heroes_31
+  - first:
+      213: 21300064
+    second: NES_contra_heroes_32
+  - first:
+      213: 21300066
+    second: NES_contra_heroes_33
+  - first:
+      213: 21300068
+    second: NES_contra_heroes_34
+  - first:
+      213: 21300070
+    second: NES_contra_heroes_35
+  - first:
+      213: 21300072
+    second: NES_contra_heroes_36
+  - first:
+      213: 21300074
+    second: NES_contra_heroes_37
+  - first:
+      213: 21300076
+    second: NES_contra_heroes_38
+  - first:
+      213: 21300078
+    second: NES_contra_heroes_39
+  - first:
+      213: 21300080
+    second: NES_contra_heroes_40
+  - first:
+      213: 21300082
+    second: NES_contra_heroes_41
+  - first:
+      213: 21300084
+    second: NES_contra_heroes_42
+  - first:
+      213: 21300086
+    second: NES_contra_heroes_43
+  - first:
+      213: 21300088
+    second: NES_contra_heroes_44
+  - first:
+      213: 21300090
+    second: NES_contra_heroes_45
+  - first:
+      213: 21300092
+    second: NES_contra_heroes_46
+  - first:
+      213: 21300094
+    second: NES_contra_heroes_47
+  - first:
+      213: 21300096
+    second: NES_contra_heroes_48
+  - first:
+      213: 21300098
+    second: NES_contra_heroes_49
+  - first:
+      213: 21300100
+    second: NES_contra_heroes_50
+  - first:
+      213: 21300102
+    second: NES_contra_heroes_51
+  - first:
+      213: 21300104
+    second: NES_contra_heroes_52
+  - first:
+      213: 21300106
+    second: NES_contra_heroes_53
+  - first:
+      213: 21300108
+    second: NES_contra_heroes_54
+  - first:
+      213: 21300110
+    second: NES_contra_heroes_55
+  - first:
+      213: 21300112
+    second: NES_contra_heroes_56
+  - first:
+      213: 21300114
+    second: NES_contra_heroes_57
+  - first:
+      213: 21300116
+    second: NES_contra_heroes_58
+  - first:
+      213: 21300118
+    second: NES_contra_heroes_59
+  - first:
+      213: 21300120
+    second: NES_contra_heroes_60
+  - first:
+      213: 21300122
+    second: NES_contra_heroes_61
+  - first:
+      213: 21300124
+    second: NES_contra_heroes_62
+  - first:
+      213: 21300126
+    second: NES_contra_heroes_63
+  - first:
+      213: 21300128
+    second: NES_contra_heroes_64
+  - first:
+      213: 21300130
+    second: NES_contra_heroes_65
+  - first:
+      213: 21300132
+    second: NES_contra_heroes_66
+  - first:
+      213: 21300134
+    second: NES_contra_heroes_67
+  - first:
+      213: 21300136
+    second: NES_contra_heroes_68
+  - first:
+      213: 21300138
+    second: NES_contra_heroes_69
+  - first:
+      213: 21300140
+    second: NES_contra_heroes_70
+  - first:
+      213: 21300142
+    second: NES_contra_heroes_71
+  - first:
+      213: 21300144
+    second: NES_contra_heroes_72
+  - first:
+      213: 21300146
+    second: NES_contra_heroes_73
+  - first:
+      213: 21300148
+    second: NES_contra_heroes_74
+  - first:
+      213: 21300150
+    second: NES_contra_heroes_75
+  - first:
+      213: 21300152
+    second: NES_contra_heroes_76
+  - first:
+      213: 21300154
+    second: NES_contra_heroes_77
+  - first:
+      213: 21300156
+    second: NES_contra_heroes_78
+  - first:
+      213: 21300158
+    second: NES_contra_heroes_79
+  - first:
+      213: 21300160
+    second: NES_contra_heroes_80
+  - first:
+      213: 21300162
+    second: NES_contra_heroes_81
+  - first:
+      213: 21300164
+    second: NES_contra_heroes_82
+  - first:
+      213: 21300166
+    second: NES_contra_heroes_83
+  - first:
+      213: 21300168
+    second: NES_contra_heroes_84
+  - first:
+      213: 21300170
+    second: NES_contra_heroes_85
+  - first:
+      213: 21300172
+    second: NES_contra_heroes_86
+  - first:
+      213: 21300174
+    second: NES_contra_heroes_87
+  - first:
+      213: 21300176
+    second: NES_contra_heroes_88
+  - first:
+      213: 21300178
+    second: NES_contra_heroes_89
+  - first:
+      213: 21300180
+    second: NES_contra_heroes_90
+  - first:
+      213: 21300182
+    second: NES_contra_heroes_91
+  - first:
+      213: 21300184
+    second: NES_contra_heroes_92
+  - first:
+      213: 21300186
+    second: NES_contra_heroes_93
+  - first:
+      213: 21300188
+    second: NES_contra_heroes_94
+  - first:
+      213: 21300190
+    second: NES_contra_heroes_95
+  - first:
+      213: 21300192
+    second: NES_contra_heroes_96
+  - first:
+      213: 21300194
+    second: NES_contra_heroes_97
+  - first:
+      213: 21300196
+    second: NES_contra_heroes_98
+  - first:
+      213: 21300198
+    second: NES_contra_heroes_99
+  - first:
+      213: 21300200
+    second: NES_contra_heroes_100
+  - first:
+      213: 21300202
+    second: NES_contra_heroes_101
+  - first:
+      213: 21300204
+    second: NES_contra_heroes_102
+  - first:
+      213: 21300206
+    second: NES_contra_heroes_103
+  - first:
+      213: 21300208
+    second: NES_contra_heroes_104
+  - first:
+      213: 21300210
+    second: 0B
+  - first:
+      213: 21300212
+    second: NES_contra_heroes_105
+  - first:
+      213: 21300214
+    second: 0F
+  - first:
+      213: 21300216
+    second: 0M
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES_contra_heroes_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 451
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 451
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 451
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 451
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 451
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 404
+        width: 23
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 404
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 404
+        width: 14
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 404
+        width: 14
+        height: 44
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 404
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_10
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 404
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 404
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 404
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 405
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 367
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 367
+        width: 16
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 367
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 367
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 367
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 367
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 367
+        width: 20
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 367
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 367
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 367
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 367
+        width: 20
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 368
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 338
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 338
+        width: 22
+        height: 18
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 338
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_29
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 338
+        width: 32
+        height: 10
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_30
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 338
+        width: 16
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_31
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 338
+        width: 16
+        height: 7
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 338
+        width: 16
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_33
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 338
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 338
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 291
+        width: 19
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 291
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 291
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 291
+        width: 16
+        height: 43
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_39
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 291
+        width: 18
+        height: 39
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_40
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 291
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 291
+        width: 16
+        height: 42
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 291
+        width: 18
+        height: 38
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_43
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 244
+        width: 19
+        height: 40
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 244
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_45
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 244
+        width: 24
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 244
+        width: 24
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 244
+        width: 24
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_48
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 244
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_50
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 226
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_51
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 226
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_52
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 226
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 226
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 23
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 179
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 179
+        width: 14
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 179
+        width: 14
+        height: 44
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_58
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 179
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 179
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 179
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_61
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 179
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_62
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 180
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_63
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_64
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 142
+        width: 16
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 142
+        width: 18
+        height: 34
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_66
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 142
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_67
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 142
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 142
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_69
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 142
+        width: 20
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_70
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 142
+        width: 16
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_71
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 142
+        width: 19
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_72
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 142
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 142
+        width: 20
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_74
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 143
+        width: 21
+        height: 35
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_75
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 113
+        width: 22
+        height: 18
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 113
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_78
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 113
+        width: 32
+        height: 10
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_79
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 66
+        width: 19
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 66
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_81
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 20
+        height: 41
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 16
+        height: 43
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_83
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 66
+        width: 18
+        height: 39
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_84
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 66
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_85
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 66
+        width: 16
+        height: 42
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_86
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 18
+        height: 38
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 19
+        width: 19
+        height: 40
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_88
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 19
+        width: 24
+        height: 45
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_90
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 19
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_91
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_92
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 19
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_93
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 19
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_94
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 19
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 19
+        width: 16
+        height: 6
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_96
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 19
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_97
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 19
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_98
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 19
+        width: 6
+        height: 16
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_99
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 24
+        height: 14
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_100
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_101
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_102
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_103
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_104
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 2.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0B
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES_contra_heroes_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0F
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0M
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      0B: 21300210
+      0F: 21300214
+      0M: 21300216
+      NES_contra_heroes_0: 21300000
+      NES_contra_heroes_1: 21300002
+      NES_contra_heroes_10: 21300020
+      NES_contra_heroes_100: 21300200
+      NES_contra_heroes_101: 21300202
+      NES_contra_heroes_102: 21300204
+      NES_contra_heroes_103: 21300206
+      NES_contra_heroes_104: 21300208
+      NES_contra_heroes_105: 21300212
+      NES_contra_heroes_11: 21300022
+      NES_contra_heroes_12: 21300024
+      NES_contra_heroes_13: 21300026
+      NES_contra_heroes_14: 21300028
+      NES_contra_heroes_15: 21300030
+      NES_contra_heroes_16: 21300032
+      NES_contra_heroes_17: 21300034
+      NES_contra_heroes_18: 21300036
+      NES_contra_heroes_19: 21300038
+      NES_contra_heroes_2: 21300004
+      NES_contra_heroes_20: 21300040
+      NES_contra_heroes_21: 21300042
+      NES_contra_heroes_22: 21300044
+      NES_contra_heroes_23: 21300046
+      NES_contra_heroes_24: 21300048
+      NES_contra_heroes_25: 21300050
+      NES_contra_heroes_26: 21300052
+      NES_contra_heroes_27: 21300054
+      NES_contra_heroes_28: 21300056
+      NES_contra_heroes_29: 21300058
+      NES_contra_heroes_3: 21300006
+      NES_contra_heroes_30: 21300060
+      NES_contra_heroes_31: 21300062
+      NES_contra_heroes_32: 21300064
+      NES_contra_heroes_33: 21300066
+      NES_contra_heroes_34: 21300068
+      NES_contra_heroes_35: 21300070
+      NES_contra_heroes_36: 21300072
+      NES_contra_heroes_37: 21300074
+      NES_contra_heroes_38: 21300076
+      NES_contra_heroes_39: 21300078
+      NES_contra_heroes_4: 21300008
+      NES_contra_heroes_40: 21300080
+      NES_contra_heroes_41: 21300082
+      NES_contra_heroes_42: 21300084
+      NES_contra_heroes_43: 21300086
+      NES_contra_heroes_44: 21300088
+      NES_contra_heroes_45: 21300090
+      NES_contra_heroes_46: 21300092
+      NES_contra_heroes_47: 21300094
+      NES_contra_heroes_48: 21300096
+      NES_contra_heroes_49: 21300098
+      NES_contra_heroes_5: 21300010
+      NES_contra_heroes_50: 21300100
+      NES_contra_heroes_51: 21300102
+      NES_contra_heroes_52: 21300104
+      NES_contra_heroes_53: 21300106
+      NES_contra_heroes_54: 21300108
+      NES_contra_heroes_55: 21300110
+      NES_contra_heroes_56: 21300112
+      NES_contra_heroes_57: 21300114
+      NES_contra_heroes_58: 21300116
+      NES_contra_heroes_59: 21300118
+      NES_contra_heroes_6: 21300012
+      NES_contra_heroes_60: 21300120
+      NES_contra_heroes_61: 21300122
+      NES_contra_heroes_62: 21300124
+      NES_contra_heroes_63: 21300126
+      NES_contra_heroes_64: 21300128
+      NES_contra_heroes_65: 21300130
+      NES_contra_heroes_66: 21300132
+      NES_contra_heroes_67: 21300134
+      NES_contra_heroes_68: 21300136
+      NES_contra_heroes_69: 21300138
+      NES_contra_heroes_7: 21300014
+      NES_contra_heroes_70: 21300140
+      NES_contra_heroes_71: 21300142
+      NES_contra_heroes_72: 21300144
+      NES_contra_heroes_73: 21300146
+      NES_contra_heroes_74: 21300148
+      NES_contra_heroes_75: 21300150
+      NES_contra_heroes_76: 21300152
+      NES_contra_heroes_77: 21300154
+      NES_contra_heroes_78: 21300156
+      NES_contra_heroes_79: 21300158
+      NES_contra_heroes_8: 21300016
+      NES_contra_heroes_80: 21300160
+      NES_contra_heroes_81: 21300162
+      NES_contra_heroes_82: 21300164
+      NES_contra_heroes_83: 21300166
+      NES_contra_heroes_84: 21300168
+      NES_contra_heroes_85: 21300170
+      NES_contra_heroes_86: 21300172
+      NES_contra_heroes_87: 21300174
+      NES_contra_heroes_88: 21300176
+      NES_contra_heroes_89: 21300178
+      NES_contra_heroes_9: 21300018
+      NES_contra_heroes_90: 21300180
+      NES_contra_heroes_91: 21300182
+      NES_contra_heroes_92: 21300184
+      NES_contra_heroes_93: 21300186
+      NES_contra_heroes_94: 21300188
+      NES_contra_heroes_95: 21300190
+      NES_contra_heroes_96: 21300192
+      NES_contra_heroes_97: 21300194
+      NES_contra_heroes_98: 21300196
+      NES_contra_heroes_99: 21300198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
