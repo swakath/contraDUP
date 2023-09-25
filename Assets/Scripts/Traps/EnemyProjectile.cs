@@ -38,14 +38,16 @@ public class EnemyProjectile : EnemyDamage      //will damage the player everyti
 
     private void OnTriggerEnter2D(Collider2D collision)
     {   
-        hit = true;
-        base.OnTriggerEnter2D(collision);       //execute logic from parent script 1st
-        coll.enabled = false;
+        if(collision.tag == "Player"){
+            hit = true;
+            base.OnTriggerEnter2D(collision);       //execute logic from parent script 1st
+            coll.enabled = false;
         
-        if(anim != null)
-            anim.SetTrigger("explode");         //when obj. is a fireball, explode it
-        else
-            gameObject.SetActive(false);        //deactivate if it touches any object
+            if(anim != null)
+                anim.SetTrigger("explode");         //when obj. is a fireball, explode it
+            else
+                gameObject.SetActive(false);        //deactivate if it touches any object
+        }
     }
 
     private void Deactivate()

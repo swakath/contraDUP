@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     [Header ("Sounds")]
     [SerializeField] private AudioClip hurtSound;
     [SerializeField] private AudioClip deathSound;
-    
+
     private bool invulnerable;
 
     private void Awake()
@@ -30,43 +30,49 @@ public class Health : MonoBehaviour
         spriteRend = GetComponent<SpriteRenderer>();
     }
 
-    public void  TakeDamage(float _damage) 
+    public void TakeDamage(float _damage) 
     {
         if(invulnerable)
             return;             //no dmg to player, if vulnerable
 
-        //currentHealth -= _damage;             //reducing players health
+            //currentHealth -= _damage;             //reducing players health
+
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
 
-        if(currentHealth > 0)
-        {
-            //player hurt
-            anim.SetTrigger("hurt");
-            
-            //get iframes
-            StartCoroutine(Invulnerability());
+        if(gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
+            if(currentHealth > 0)
+            {
+                //player hurt
+                anim.SetTrigger("hurt");
+                
+                //get iframes
+                StartCoroutine(Invulnerability());
 
-            SoundManger.instance.PlaySound(hurtSound);
-        } 
-        else
-        {
-            if(!dead) {                         //player only dies once
-                //player dead
-                anim.SetTrigger("die");
+                SoundManger.instance.PlaySound(hurtSound);
+            } 
+            else
+            {
+                if(!dead) {                         //player only dies once
+                    //player dead
+                    anim.SetTrigger("die");
 
+                    // deactivates all attached classes
+                    foreach (Behaviour component in components)
+                        component.enabled = false;
+                    
+                    dead = true;
+                    SoundManger.instance.PlaySound(deathSound);
+                }
+            }
+        }
+        else if(gameObject.CompareTag("EnemyMachine"))               //machine turrets
+        {
+            if(!dead) { 
+                anim.SetTrigger("destroyed");
                 // deactivates all attached classes
                 foreach (Behaviour component in components)
                     component.enabled = false;
-
-                // if(GetComponent<PlayerMovement>() != null)
-                //     GetComponent<PlayerMovement>().enabled = false;          //disable player
-                
-                // if(GetComponentInParent<EnemyPatrol>() != null)
-                //     GetComponentInParent<EnemyPatrol>().enabled = false;        //disable enemy components
-                
-                // if(GetComponent<MeleeEnemy>() != null)
-                //     GetComponent<MeleeEnemy>().enabled = false;                 //disable enemy comp.
-                
+                    
                 dead = true;
                 SoundManger.instance.PlaySound(deathSound);
             }
