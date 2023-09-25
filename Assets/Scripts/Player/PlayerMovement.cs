@@ -12,6 +12,9 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float x_input;
 
+    [Header ("SFX")]
+    [SerializeField] private AudioClip jumpSound;
+
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -37,8 +40,12 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("grounded", IsGrounded());
 
 
-        if(Input.GetKey(KeyCode.Space) && IsGrounded())
+        if(Input.GetKey(KeyCode.Space) && IsGrounded()){
             Jump();
+
+            if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+                SoundManger.instance.PlaySound(jumpSound); 
+        }
     }
 
     private void Jump() 

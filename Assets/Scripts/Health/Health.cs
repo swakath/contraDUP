@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -15,8 +14,12 @@ public class Health : MonoBehaviour
     [SerializeField] private int noOfFlashes;                   // to display before a player turns back to normal state
     private SpriteRenderer spriteRend;                          // ref to sprite renderer to change the color of player during invulnerable duration 
 
-    // [Header ("Components")]
-    // [SerializeField] private Behaviour[] components;
+    [Header ("Components")]
+    [SerializeField] private Behaviour[] components;
+    
+    [Header ("Sounds")]
+    [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip deathSound;
     
     private bool invulnerable;
 
@@ -43,7 +46,7 @@ public class Health : MonoBehaviour
             //get iframes
             StartCoroutine(Invulnerability());
 
-            // SoundManger.instance.PlaySound(hurtSound);
+            SoundManger.instance.PlaySound(hurtSound);
         } 
         else
         {
@@ -51,14 +54,21 @@ public class Health : MonoBehaviour
                 //player dead
                 anim.SetTrigger("die");
 
-                //deactivates all attached classes
-                // foreach (Behaviour component in components)
-                //     component.enabled = false;
+                // deactivates all attached classes
+                foreach (Behaviour component in components)
+                    component.enabled = false;
 
-                GetComponent<PlayerMovement>().enabled = false;
+                // if(GetComponent<PlayerMovement>() != null)
+                //     GetComponent<PlayerMovement>().enabled = false;          //disable player
+                
+                // if(GetComponentInParent<EnemyPatrol>() != null)
+                //     GetComponentInParent<EnemyPatrol>().enabled = false;        //disable enemy components
+                
+                // if(GetComponent<MeleeEnemy>() != null)
+                //     GetComponent<MeleeEnemy>().enabled = false;                 //disable enemy comp.
                 
                 dead = true;
-                // SoundManger.instance.PlaySound(deathSound);
+                SoundManger.instance.PlaySound(deathSound);
             }
         }
     }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class Transit : MonoBehaviour
 {
     [SerializeField] private Transform prevScreen;
     [SerializeField] private Transform nextScreen;
@@ -13,14 +13,14 @@ public class Door : MonoBehaviour
             if(collision.transform.position.x < transform.position.x)           //player coming from Left
             {
                 cam.MoveToNewScreen(nextScreen);
-                // nextScreen.GetComponent<Door>().ActivateRoom(true);
-                // prevScreen.GetComponent<Door>().ActivateRoom(false);
+                nextScreen.GetComponent<Screen>().ActivateScreen(true);
+                prevScreen.GetComponent<Screen>().ActivateScreen(false);
             }
             else    
             {
                 cam.MoveToNewScreen(prevScreen);                                    //player coming from Right
-                // prevScreen.GetComponent<Room>().ActivateRoom(true);
-                // nextScreen.GetComponent<Room>().ActivateRoom(false);
+                prevScreen.GetComponent<Screen>().ActivateScreen(true);
+                nextScreen.GetComponent<Screen>().ActivateScreen(false);
             }
         }
     }
