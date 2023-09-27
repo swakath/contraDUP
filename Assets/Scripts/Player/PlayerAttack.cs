@@ -33,8 +33,10 @@ public class PlayerAttack : MonoBehaviour
 
         //pool fireballs
         fireballs[FindFireball()].transform.position = firePoint.position;   //everytime takes a fireball, and sets its initial position to firepoint
-        fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));     //get the dir. to fire {player facing} 
-
+        if(!GetComponent<PlayerMovement>().isUp)
+            fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x), true);     //get the dir. to fire {player facing} 
+        else
+            fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.y), false);     //get the dir. to fire {player facing}
     }
 
     private int FindFireball()

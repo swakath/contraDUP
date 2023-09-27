@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRen;
 
     private bool isProne = false;
-    private bool isUp = false;
+    public bool isUp {get; private set; }
     private Vector3 orgFirepointPosition; // Store the original position of firepoint
 
     [Header ("SFX")]
@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>(); 
         spriteRen = GetComponent<SpriteRenderer>();
+        isUp = false;
     }
 
     private void Start()
@@ -103,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
         if(!isUp)
         {
             anim.SetBool("lookup", true);
-             // Adjust the firepoint's local position for Up state
+            // Adjust the firepoint's local position for Up state
             firepoint.localPosition = new Vector3(0.3f, 2f, orgFirepointPosition.z);
             isUp = true;
         }
@@ -118,8 +119,10 @@ public class PlayerMovement : MonoBehaviour
         if(IsGrounded()){
             body.velocity = new Vector2(body.velocity.x, jumpPower);
             firepoint.localPosition = orgFirepointPosition;
-            isProne = false;
             anim.SetBool("prone", false);
+            anim.SetBool("lookup", false);
+            isProne = false;
+            isUp = false;
             anim.SetTrigger("jump");
         }
     }
@@ -131,4 +134,3 @@ public class PlayerMovement : MonoBehaviour
     }
 
 }
-

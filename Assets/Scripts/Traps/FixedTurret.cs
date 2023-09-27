@@ -10,6 +10,13 @@ public class FixedTurret : MonoBehaviour
     [Header ("SFX")]
     [SerializeField] private AudioClip bulletSound;
 
+    private Health playerHealth;
+
+    private void Awake()
+    {
+        playerHealth = GetComponent<Health>();
+    }
+
     private void Attack() 
     {
         cooldownTimer = 0;
@@ -33,7 +40,7 @@ public class FixedTurret : MonoBehaviour
     private void Update()
     {
         cooldownTimer += Time.deltaTime; 
-        if(cooldownTimer >= attackCooldown)
+        if(cooldownTimer >= attackCooldown && playerHealth.currentHealth > 0)
             Attack();
     }
 }

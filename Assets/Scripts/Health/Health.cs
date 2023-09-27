@@ -35,8 +35,7 @@ public class Health : MonoBehaviour
         if(invulnerable)
             return;             //no dmg to player, if vulnerable
 
-            //currentHealth -= _damage;             //reducing players health
-
+        //currentHealth -= _damage;             //reducing players health
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
 
         if(gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         

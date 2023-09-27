@@ -9,11 +9,14 @@ public class Projectile : MonoBehaviour
     private Animator anim;
     private float lifetime;
 
+    private bool isHorizontal;
+
     private void Awake()
     {
         //Grab reference
-        anim = GetComponent<Animator>   ();
+        anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>(); 
+        isHorizontal = true;
     }
 
     private void Update()
@@ -22,8 +25,11 @@ public class Projectile : MonoBehaviour
             return;
         
         float movementSpeed = speed * Time.deltaTime * direction;
-        transform.Translate(movementSpeed,0,0);                 //move obj. by movement speed on x axis 
-
+        if(isHorizontal)
+            transform.Translate(movementSpeed,0,0);                 //move obj. by movement speed on x axis 
+        else
+            transform.Translate(0,movementSpeed,0);
+        
         lifetime += Time.deltaTime;
         if(lifetime > 3)
             gameObject.SetActive(false);
@@ -31,25 +37,36 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if fireball hit any other object 
-        hit = true;     
-        boxCollider.enabled = false;
-        anim.SetTrigger("explode");
+        if(collision != null) {
+            //if fireball hit any other object 
+            hit = true;     
+            boxCollider.enabled = false;
+            
+            if(collision.tag == "Enemy" || collision.tag == "EnemyMachine")
+                collision.GetComponent<Health>().TakeDamage(1);         //reduce enemy's health by 1, if player's shot connects to enemy
 
-        if(collision.tag == "Enemy")
-            collision.GetComponent<Health>().TakeDamage(1);         //reduce enemy's health by 1, if player's shot connects to enemy
+            anim.SetTrigger("explode");
+
+            // if(collision.tag == "Ground")
+            // {
+            //     //shoot through the collider   
+            // }
+            
+        }
+
+        anim.SetTrigger("explode");
     }
 
 
     //to shoot fireball L/R  & to reset state of the fireball
-    public void SetDirection(float _direction)
+    public void SetDirection(float _direction, bool isHorizontal)
     {
         lifetime = 0;
         direction = _direction;
         gameObject.SetActive(true);
         hit = false;     
         boxCollider.enabled = true;
-
+        this.isHorizontal = isHorizontal;
         //for fireball dir.
         float localScaleX = transform.localScale.x;
         if(Mathf.Sign(localScaleX) != _direction)
