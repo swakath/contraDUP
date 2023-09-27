@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - EnemyMachine
   - EnemyRunner
+  - FireBallHolder
   layers:
   - Default
   - TransparentFX

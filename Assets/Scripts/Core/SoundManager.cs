@@ -14,12 +14,10 @@ public class SoundManger : MonoBehaviour
         if(instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         //destroy duplicate gameobjects
         else if(instance != null && instance != this)       //duplicate object
             Destroy(gameObject);
-
     }
 
     public void PlaySound(AudioClip _sound) 

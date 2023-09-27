@@ -16,12 +16,12 @@ public class NewBehaviourScript : MonoBehaviour
         curButtonName =  UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
         if(curButtonName == BLUE_BUTTON)
         {
-            Debug.Log("Blue Button pressed");
+            //Debug.Log("Blue Button pressed");
             selectedIndex = 0;
         }
         else if(curButtonName == RED_BUTTON)
         {
-            Debug.Log("Red Button pressed");
+            //Debug.Log("Red Button pressed");
             selectedIndex = 0;
         }
         GameManager.Instance.gameObjectIndex = selectedIndex;

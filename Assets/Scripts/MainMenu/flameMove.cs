@@ -26,7 +26,7 @@ public class flameMove : MonoBehaviour
     {
         if(UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject != null)
             curButtonName = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.name;
-        Debug.Log(curButtonName);
+        //Debug.Log(curButtonName);
         if(curButtonName != prevButton)
         {
             myAudio.Play();
