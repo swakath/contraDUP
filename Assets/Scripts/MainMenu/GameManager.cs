@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public GameObject[] gameObjects;
 
+
+    public delegate void ObjectInstantiated(GameObject instantiatedObject);
+    public static event ObjectInstantiated OnObjectInstantiated;
+
     private int _gameObjectIndex;
 
     public int gameObjectIndex 
@@ -43,7 +47,8 @@ public class GameManager : MonoBehaviour
     {
         if (scene.name == "Level1")
         {
-            Instantiate(gameObjects[_gameObjectIndex]);
+            GameObject instantiatedObject = Instantiate(gameObjects[_gameObjectIndex]);
+            OnObjectInstantiated.Invoke(instantiatedObject);
         }
     }
 }
