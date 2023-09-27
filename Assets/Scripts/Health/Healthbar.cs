@@ -7,14 +7,42 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Image totalHealthBar;
     [SerializeField] private Image currentHealthBar;
 
+    private void Awake()
+    {
+        totalHealthBar.fillAmount = 0.4f;
+        
+        playerHealth = null;
+    }
+
+    
+
+    private void OnEnable()
+    {
+        GameManager.OnObjectInstantiated += HandleObjectInstantiated;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.OnObjectInstantiated -= HandleObjectInstantiated;
+    }
+
     private void Start()
     {
-        totalHealthBar.fillAmount = playerHealth.currentHealth / 10;   
-    }   
+    }
 
     private void Update()
     {
-        currentHealthBar.fillAmount = playerHealth.currentHealth / 10;
+        if(playerHealth != null)
+            currentHealthBar.fillAmount = playerHealth.currentHealth / 10;
     }
-    
+
+    private void HandleObjectInstantiated(GameObject instantiatedObject)
+    {
+        if (instantiatedObject.tag == "Player")
+        {
+            Debug.Log("[Health Bar]: I Received the player");
+            playerHealth = instantiatedObject.GetComponent<Health>();
+        }
+    }
+
 }
