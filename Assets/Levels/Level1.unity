@@ -554,10 +554,10 @@ GameObject:
   - component: {fileID: 99701994}
   - component: {fileID: 99701997}
   - component: {fileID: 99701996}
-  - component: {fileID: 99701995}
+  - component: {fileID: 99701998}
   m_Layer: 6
   m_Name: Transit
-  m_TagString: Untagged
+  m_TagString: Lvl_change
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,21 +577,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 922535799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &99701995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99701993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a128cf4607f1965418ac7f23b1d196fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prevScreen: {fileID: 922535799}
-  nextScreen: {fileID: 1785390024}
-  cam: {fileID: 519420033}
 --- !u!50 &99701996
 Rigidbody2D:
   serializedVersion: 4
@@ -664,6 +649,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72286415, y: 3.0659266}
   m_EdgeRadius: 0
+--- !u!114 &99701998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99701993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b8764cd0811ec4db92c4802e5476b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &107405340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,10 +1836,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5571500398358975258, guid: bc0c354aff49f654eb76b277c4122188, type: 3}
-      propertyPath: damage
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1948,7 +1941,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.data[0]
@@ -2526,11 +2519,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1095087261 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3183747515916309233, guid: de684292a3610c04196c7a330655d6b8, type: 3}
-  m_PrefabInstance: {fileID: 407089792}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1095087262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7650727223564411827, guid: de684292a3610c04196c7a330655d6b8, type: 3}
@@ -5044,10 +5032,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8636090188664876809, guid: de684292a3610c04196c7a330655d6b8, type: 3}
-      propertyPath: damage
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6511,16 +6495,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.data[0]
       value: 
-      objectReference: {fileID: 1095087261}
+      objectReference: {fileID: 930976146}
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.data[1]
       value: 
-      objectReference: {fileID: 930976146}
+      objectReference: {fileID: 157334974}
     - target: {fileID: 340102642215489866, guid: d17394b9b41a17242970408ab97e53fd, type: 3}
       propertyPath: enemies.Array.data[2]
       value: 

@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
     {
         if (instantiatedObject.tag == "Player")
         {
-            Debug.Log("[Camera] : I Received the player ");
+            // Debug.Log("[Camera] : I Received the player ");
             player = instantiatedObject.GetComponent<Transform>();
         }
     }

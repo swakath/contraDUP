@@ -9,6 +9,9 @@ TagManager:
   - EnemyMachine
   - EnemyRunner
   - FireBallHolder
+  - EnemyTrap
+  - Lvl_change
+  - Enemy_bullet
   layers:
   - Default
   - TransparentFX
@@ -21,7 +24,7 @@ TagManager:
   - ground
   - player
   - enemy
-  - 
+  - transition
   - 
   - 
   - 

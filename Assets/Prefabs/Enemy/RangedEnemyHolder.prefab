@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 0.7
   range: 13
-  damage: 1
+  damage: 0.5
   firepoint: {fileID: 9192156926318302221}
   bullets:
   - {fileID: 3746460146779099227}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e9157b28758f469f3a89b0219c527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.25
 --- !u!1 &1805215589495394580
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 6182547807783546789}
   m_Layer: 10
   m_Name: FireballHolder
-  m_TagString: Untagged
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &3500809583949428696
 GameObject:
@@ -666,7 +665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &3598156375266001420
 GameObject:
@@ -862,7 +860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &3746460146779099227
 GameObject:
@@ -1058,7 +1055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &4419039252074721398
 GameObject:
@@ -1318,7 +1314,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &5602060669410806623
 GameObject:
@@ -1514,7 +1509,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &5655354647643261425
 GameObject:
@@ -1710,7 +1704,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &6060757910332021701
 GameObject:
@@ -1906,7 +1899,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &7924663699734908145
 GameObject:
@@ -2102,7 +2094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3
 --- !u!1 &8171591507953212208
 GameObject:
@@ -2298,5 +2289,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 12
   resetTime: 3

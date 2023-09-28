@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 2090274937335044076}
   m_Layer: 8
   m_Name: Spikes
-  m_TagString: Enemy
+  m_TagString: EnemyTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

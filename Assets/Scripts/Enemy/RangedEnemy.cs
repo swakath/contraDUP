@@ -5,7 +5,7 @@ public class RangedEnemy : MonoBehaviour
     [Header ("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
-    [SerializeField] private int damage;
+    [SerializeField] private float damage;
 
     [Header ("Ranged Attack")]
     [SerializeField] private Transform firepoint;

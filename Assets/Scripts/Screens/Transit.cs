@@ -6,10 +6,13 @@ public class Transit : MonoBehaviour
     [SerializeField] private Transform nextScreen;
     [SerializeField] private CameraController cam;
 
+    private bool transitionOccurred = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.tag == "Player" && !transitionOccurred)
         {
+
             if(collision.transform.position.x < transform.position.x)           //player coming from Left
             {
                 cam.MoveToNewScreen(nextScreen);
@@ -22,6 +25,8 @@ public class Transit : MonoBehaviour
                 prevScreen.GetComponent<Screen>().ActivateScreen(true);
                 nextScreen.GetComponent<Screen>().ActivateScreen(false);
             }
+
+            transitionOccurred = true;          // Set the flag to true to prevent further transitions
         }
     }
 }

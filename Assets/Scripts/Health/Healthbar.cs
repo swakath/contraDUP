@@ -40,7 +40,7 @@ public class HealthBar : MonoBehaviour
     {
         if (instantiatedObject.tag == "Player")
         {
-            Debug.Log("[Health Bar]: I Received the player");
+            //Debug.Log("[Health Bar]: I Received the player");
             playerHealth = instantiatedObject.GetComponent<Health>();
         }
     }

@@ -46,15 +46,10 @@ public class Projectile : MonoBehaviour
                 collision.GetComponent<Health>().TakeDamage(1);         //reduce enemy's health by 1, if player's shot connects to enemy
 
             anim.SetTrigger("explode");
-
-            // if(collision.tag == "Ground")
-            // {
-            //     //shoot through the collider   
-            // }
             
         }
 
-        anim.SetTrigger("explode");
+        //anim.SetTrigger("explode");
     }
 
 

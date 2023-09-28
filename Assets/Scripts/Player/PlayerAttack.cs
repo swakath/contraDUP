@@ -28,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
             //Do something with child
         }
 
-        Debug.LogFormat("cooldown: {0}, attack: {1}",cooldownTimer,attkCooldown);
+        // Debug.LogFormat("cooldown: {0}, attack: {1}",cooldownTimer,attkCooldown);
     }
 
     private void Start()
@@ -46,7 +46,7 @@ public class PlayerAttack : MonoBehaviour
 
         
         cooldownTimer += Time.deltaTime;
-        Debug.LogFormat("cooldown: {0}, attack: {1}", cooldownTimer, attkCooldown);
+        // Debug.LogFormat("cooldown: {0}, attack: {1}", cooldownTimer, attkCooldown);
     }
 
     private void Attack() 
