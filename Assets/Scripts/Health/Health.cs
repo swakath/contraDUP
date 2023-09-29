@@ -20,8 +20,19 @@ public class Health : MonoBehaviour
     [Header ("Sounds")]
     [SerializeField] private AudioClip hurtSound;
     [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip pain;
+    [SerializeField] private AudioClip addLife;
+
 
     private bool invulnerable;
+    private bool isPainPlayed = false;
+    IEnumerator WaitAndChangeScene()
+    {
+        
+        yield return new WaitForSeconds(2);
+        GameManager.Instance.PlayerDeadSequence();
+        //Debug.Log("Hello!");
+    }
 
     private void Awake()
     {
@@ -35,6 +46,7 @@ public class Health : MonoBehaviour
         }
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
+        isPainPlayed = false;
     }
 
     public void TakeDamage(float _damage) 
@@ -45,10 +57,20 @@ public class Health : MonoBehaviour
             //currentHealth -= _damage;             //reducing players health
 
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
-        //Debug.Log(currentHealth);
-        
-        if(gameObject.CompareTag("Player"))
+                                                                                            //Debug.Log(currentHealth);
+
+        if (gameObject.CompareTag("Player"))
+        {
             GameManager.Instance.PlayerHealth = currentHealth;
+            if(currentHealth < 1f)
+            {
+                if (!isPainPlayed)
+                {
+                    isPainPlayed = true;
+                    SoundManger.instance.PlaySound(pain);
+                }
+            }
+        }
 
         if (gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
             if(currentHealth > 0)
@@ -63,7 +85,15 @@ public class Health : MonoBehaviour
             } 
             else
             {
-                if(!dead) {                         //player only dies once
+
+                //player dead
+                
+                
+
+                if (!dead)
+                {                         //player only dies once
+                    anim.SetTrigger("die");
+                    SoundManger.instance.PlaySound(deathSound);
                     if (gameObject.CompareTag("Enemy"))
                     {
                         float winPoint = 0f;
@@ -72,21 +102,18 @@ public class Health : MonoBehaviour
 
                         GameManager.Instance.IncrementPlayerKillScored(winPoint);
                     }
-                    if(gameObject.CompareTag("Player"))
+                    if (gameObject.CompareTag("Player"))
                     {
-                        GameManager.Instance.PlayerDeadSequence();
+                        StartCoroutine(WaitAndChangeScene());
                     }
-                       
-                    //player dead
-                    anim.SetTrigger("die");
 
-                    // deactivates all attached classes
-                    foreach (Behaviour component in components)
-                        component.enabled = false;
-                    
-                    dead = true;
-                    SoundManger.instance.PlaySound(deathSound);
                 }
+
+                // deactivates all attached classes
+                foreach (Behaviour component in components)
+                    component.enabled = false;
+
+                dead = true;
             }
         }
         else if(gameObject.CompareTag("EnemyMachine"))               //machine turrets
@@ -112,6 +139,7 @@ public class Health : MonoBehaviour
 
     public void AddHealth(float _value)
     {
+        SoundManger.instance.PlaySound(addLife);
         currentHealth = Mathf.Clamp(currentHealth + _value, 0 , startingHealth);   
     }
 

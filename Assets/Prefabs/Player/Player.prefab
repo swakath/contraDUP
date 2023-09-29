@@ -238,8 +238,10 @@ MonoBehaviour:
   components:
   - {fileID: 2917776273694999493}
   - {fileID: 701597526877761075}
-  hurtSound: {fileID: 8300000, guid: 86b5ff59be260d648952e4eb20f6c721, type: 3}
-  deathSound: {fileID: 8300000, guid: 00a22ef2b4569924b9212f28a3543f20, type: 3}
+  hurtSound: {fileID: 8300000, guid: 8c11b43c246a10a46a84ca05368609e7, type: 3}
+  deathSound: {fileID: 8300000, guid: 9f95088c22ba7574a9d5985152216c5a, type: 3}
+  pain: {fileID: 8300000, guid: b8920e8c507a50940b67c3ab407d322c, type: 3}
+  addLife: {fileID: 8300000, guid: 701b52cdd246bc54d932e2c48d9998a7, type: 3}
 --- !u!114 &6362066648498245466
 MonoBehaviour:
   m_ObjectHideFlags: 0
