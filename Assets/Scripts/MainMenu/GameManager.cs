@@ -15,6 +15,13 @@ public class GameManager : MonoBehaviour
     public static event ObjectInstantiated OnObjectInstantiated;
 
     private int _gameObjectIndex;
+    private float _playerHealth;
+
+    public float PlayerHealth
+    {
+        get { return _playerHealth; }
+        set { _playerHealth = value; }
+    }
 
     public int gameObjectIndex 
     {  
@@ -27,6 +34,7 @@ public class GameManager : MonoBehaviour
         if(Instance == null)
         {
             Instance = this;
+            _playerHealth = 4f;
             DontDestroyOnLoad(Instance);
         }
         else
@@ -46,6 +54,12 @@ public class GameManager : MonoBehaviour
     void OnLevelFinishLoading(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "Level1")
+        {
+            GameObject instantiatedObject = Instantiate(gameObjects[_gameObjectIndex]);
+            OnObjectInstantiated.Invoke(instantiatedObject);
+        }
+
+        else if (scene.name == "Level3")
         {
             GameObject instantiatedObject = Instantiate(gameObjects[_gameObjectIndex]);
             OnObjectInstantiated.Invoke(instantiatedObject);

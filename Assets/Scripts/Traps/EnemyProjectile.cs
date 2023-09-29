@@ -54,7 +54,7 @@ public class EnemyProjectile : EnemyDamage      //will damage the player everyti
 
     private void OnTriggerEnter2D(Collider2D collision)
     {   
-        if(collision.tag == "Player" || collision.tag == "Player_bullet"){
+        if(collision.tag == "Player"){
             hit = true;
             base.OnTriggerEnter2D(collision);       //execute logic from parent script 1st
             coll.enabled = false;

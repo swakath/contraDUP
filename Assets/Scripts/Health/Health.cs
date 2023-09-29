@@ -25,7 +25,7 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = startingHealth;
+        currentHealth = GameManager.Instance.PlayerHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
@@ -39,8 +39,9 @@ public class Health : MonoBehaviour
 
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
         Debug.Log(currentHealth);
+        GameManager.Instance.PlayerHealth = currentHealth;
 
-        if(gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
+        if (gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
             if(currentHealth > 0)
             {
                 //player hurt

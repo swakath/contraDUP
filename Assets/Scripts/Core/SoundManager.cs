@@ -22,6 +22,9 @@ public class SoundManger : MonoBehaviour
 
     public void PlaySound(AudioClip _sound) 
     {
-        source.PlayOneShot(_sound);         //plays an audio clip only once
+        if (_sound != null)
+        {
+            source.PlayOneShot(_sound);         //plays an audio clip only once
+        }
     }
 }
