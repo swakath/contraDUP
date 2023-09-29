@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,12 +17,10 @@ public class GameManager : MonoBehaviour
 
     private int _gameObjectIndex;
     private float _playerHealth;
+    private double _playerKillScored;
+    private double _playerScore;
 
-    public float PlayerHealth
-    {
-        get { return _playerHealth; }
-        set { _playerHealth = value; }
-    }
+    
 
     public int gameObjectIndex 
     {  
@@ -29,12 +28,43 @@ public class GameManager : MonoBehaviour
         set { _gameObjectIndex = value; }
     }
 
+    public float PlayerHealth
+    {
+        get { return _playerHealth; }
+        set { _playerHealth = value; }
+    }
+
+    public double PlayerKillScored
+    {
+        get { return _playerKillScored;}
+    }
+
+    public double PlayerScore
+    {
+        get { return _playerScore; }
+    }
+
+    public void IncrementPlayerKillScored(float killScore)
+    {
+        if (killScore > 0)
+        {
+            _playerKillScored += killScore;
+        }
+    }
+
+    public void PlayerDeadSequence()
+    {
+        _playerScore = _playerKillScored + (Time.time/10);
+        SceneManager.LoadScene("ScoreCard");
+    }
     private void Awake()
     {
         if(Instance == null)
         {
             Instance = this;
             _playerHealth = 4f;
+            _playerKillScored = 0f;
+            _playerScore = 0f;
             DontDestroyOnLoad(Instance);
         }
         else

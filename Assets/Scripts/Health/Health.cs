@@ -25,7 +25,14 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = GameManager.Instance.PlayerHealth;
+        if (gameObject.CompareTag("Player"))
+        {
+            currentHealth = GameManager.Instance.PlayerHealth;
+        }
+        else
+        {
+            currentHealth = startingHealth;
+        }
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
     }
@@ -38,8 +45,10 @@ public class Health : MonoBehaviour
             //currentHealth -= _damage;             //reducing players health
 
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
-        Debug.Log(currentHealth);
-        GameManager.Instance.PlayerHealth = currentHealth;
+        //Debug.Log(currentHealth);
+        
+        if(gameObject.CompareTag("Player"))
+            GameManager.Instance.PlayerHealth = currentHealth;
 
         if (gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
             if(currentHealth > 0)
@@ -55,6 +64,19 @@ public class Health : MonoBehaviour
             else
             {
                 if(!dead) {                         //player only dies once
+                    if (gameObject.CompareTag("Enemy"))
+                    {
+                        float winPoint = 0f;
+                        winPoint = 10* gameObject.GetComponent<EnemyDamage>().getDamage();
+                        winPoint += 20 * startingHealth;
+
+                        GameManager.Instance.IncrementPlayerKillScored(winPoint);
+                    }
+                    if(gameObject.CompareTag("Player"))
+                    {
+                        GameManager.Instance.PlayerDeadSequence();
+                    }
+                       
                     //player dead
                     anim.SetTrigger("die");
 
@@ -69,7 +91,14 @@ public class Health : MonoBehaviour
         }
         else if(gameObject.CompareTag("EnemyMachine"))               //machine turrets
         {
-            if(!dead && currentHealth == 0) { 
+            if(!dead && currentHealth == 0) {
+                
+                float winPoint = 0f;
+                winPoint = 10 * gameObject.GetComponent<EnemyDamage>().getDamage();
+                winPoint += 20 * startingHealth;
+
+                GameManager.Instance.IncrementPlayerKillScored(winPoint);
+
                 anim.SetTrigger("destroyed");
                 // deactivates all attached classes
                 foreach (Behaviour component in components)
