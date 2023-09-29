@@ -167,4 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementDistance: 5
   speed: 6
-  damage: 1
+  damage: 0.5

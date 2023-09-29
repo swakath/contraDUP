@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e9157b28758f469f3a89b0219c527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0.5
+  damage: 0
 --- !u!1 &1805215589495394580
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 6182547807783546789}
   m_Layer: 10
   m_Name: FireballHolder
-  m_TagString: Untagged
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 4617756372359931174}
   m_Layer: 10
   m_Name: Bullet (6)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -469,8 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &3500809583949428696
 GameObject:
@@ -488,7 +487,7 @@ GameObject:
   - component: {fileID: 7635876975327077936}
   m_Layer: 10
   m_Name: Bullet (2)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -665,8 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &3598156375266001420
 GameObject:
@@ -684,7 +682,7 @@ GameObject:
   - component: {fileID: 7530707195133645796}
   m_Layer: 10
   m_Name: Bullet (1)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -861,8 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &3746460146779099227
 GameObject:
@@ -880,7 +877,7 @@ GameObject:
   - component: {fileID: 7679573894609486259}
   m_Layer: 10
   m_Name: Bullet
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1057,8 +1054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &4419039252074721398
 GameObject:
@@ -1140,7 +1136,7 @@ GameObject:
   - component: {fileID: 1934667691124483987}
   m_Layer: 10
   m_Name: Bullet (9)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1317,8 +1313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &5602060669410806623
 GameObject:
@@ -1336,7 +1331,7 @@ GameObject:
   - component: {fileID: 1500769723871779511}
   m_Layer: 10
   m_Name: Bullet (8)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1513,8 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &5655354647643261425
 GameObject:
@@ -1532,7 +1526,7 @@ GameObject:
   - component: {fileID: 1663677044204197913}
   m_Layer: 10
   m_Name: Bullet (7)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,8 +1703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &6060757910332021701
 GameObject:
@@ -1728,7 +1721,7 @@ GameObject:
   - component: {fileID: 968671217002760749}
   m_Layer: 10
   m_Name: Bullet (3)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1905,8 +1898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &7924663699734908145
 GameObject:
@@ -1924,7 +1916,7 @@ GameObject:
   - component: {fileID: 3789574329373760793}
   m_Layer: 10
   m_Name: Bullet (5)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2101,8 +2093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3
 --- !u!1 &8171591507953212208
 GameObject:
@@ -2120,7 +2111,7 @@ GameObject:
   - component: {fileID: 2885146333046672088}
   m_Layer: 10
   m_Name: Bullet (4)
-  m_TagString: Enemy
+  m_TagString: Enemy_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2297,6 +2288,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage_On_Contact: 0
-  speed: 12
+  damage: 0
   resetTime: 3

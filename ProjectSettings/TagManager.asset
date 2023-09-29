@@ -12,6 +12,7 @@ TagManager:
   - EnemyTrap
   - Lvl_change
   - Enemy_bullet
+  - Player_bullet
   layers:
   - Default
   - TransparentFX
