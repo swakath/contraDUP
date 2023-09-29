@@ -38,6 +38,7 @@ public class Health : MonoBehaviour
             //currentHealth -= _damage;             //reducing players health
 
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0 , startingHealth);           //reduce n check if within bounds
+        Debug.Log(currentHealth);
 
         if(gameObject.CompareTag("Player") || gameObject.CompareTag("Enemy")){         
             if(currentHealth > 0)
@@ -67,7 +68,7 @@ public class Health : MonoBehaviour
         }
         else if(gameObject.CompareTag("EnemyMachine"))               //machine turrets
         {
-            if(!dead) { 
+            if(!dead && currentHealth == 0) { 
                 anim.SetTrigger("destroyed");
                 // deactivates all attached classes
                 foreach (Behaviour component in components)
