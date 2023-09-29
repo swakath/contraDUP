@@ -13,6 +13,9 @@ TagManager:
   - Lvl_change
   - Enemy_bullet
   - Player_bullet
+  - Scenes
+  - Level_audio
+  - MainEventSystem
   layers:
   - Default
   - TransparentFX

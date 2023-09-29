@@ -1307,10 +1307,6 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2917776273694999493, guid: a4e848eca23c27145b694849915b793f, type: 3}
-      propertyPath: fireballs.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2917776273694999493, guid: a4e848eca23c27145b694849915b793f, type: 3}
       propertyPath: fireballs.Array.data[0]
       value: 
       objectReference: {fileID: 4213762395302140859}

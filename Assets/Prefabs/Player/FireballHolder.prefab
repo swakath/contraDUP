@@ -1757,7 +1757,7 @@ GameObject:
   - component: {fileID: 1502108212334426976}
   m_Layer: 6
   m_Name: FireballHolder
-  m_TagString: Player_bullet
+  m_TagString: FireBallHolder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

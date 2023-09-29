@@ -67,8 +67,8 @@ public class Health : MonoBehaviour
                     if (gameObject.CompareTag("Enemy"))
                     {
                         float winPoint = 0f;
-                        winPoint = 10* gameObject.GetComponent<EnemyDamage>().getDamage();
-                        winPoint += 20 * startingHealth;
+                        //winPoint = 10* gameObject.GetComponent<EnemyDamage>().getDamage();
+                        winPoint = 20 * startingHealth;
 
                         GameManager.Instance.IncrementPlayerKillScored(winPoint);
                     }
@@ -94,8 +94,8 @@ public class Health : MonoBehaviour
             if(!dead && currentHealth == 0) {
                 
                 float winPoint = 0f;
-                winPoint = 10 * gameObject.GetComponent<EnemyDamage>().getDamage();
-                winPoint += 20 * startingHealth;
+                //winPoint = 10f * gameObject.GetComponent<Health>().getStartingHealth();
+                winPoint = 20f * startingHealth;
 
                 GameManager.Instance.IncrementPlayerKillScored(winPoint);
 

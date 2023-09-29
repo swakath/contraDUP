@@ -21,13 +21,16 @@ public class PlayerAttack : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
 
         FireBallHolder = GameObject.Find("FireballHolder");
-        for (int i = 0; i < FireBallHolder.transform.childCount; i++)
+        if (fireballs.Count == 0)
         {
-            GameObject child = FireBallHolder.transform.GetChild(i).gameObject;
-            fireballs.Add(child);
-            //Do something with child
+            for (int i = 0; i < FireBallHolder.transform.childCount; i++)
+            {
+                GameObject child = FireBallHolder.transform.GetChild(i).gameObject;
+                if (child != null)
+                    fireballs.Add(child);
+                //Do something with child
+            }
         }
-
         // Debug.LogFormat("cooldown: {0}, attack: {1}",cooldownTimer,attkCooldown);
     }
 
