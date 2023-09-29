@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c346787b4295bf54bae5c18b65628509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 0.4
   resetTime: 3
 --- !u!1 &882627543760806360
 GameObject:
@@ -621,7 +621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 0.2
   range: 9
-  damage: 1
+  damage: 0.3
   firepoint: {fileID: 4950191221118767721}
   bullets:
   - {fileID: 655921849461307013}
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e9157b28758f469f3a89b0219c527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0.5
+  damage: 0.4
 --- !u!1 &1312635311814990686
 GameObject:
   m_ObjectHideFlags: 0

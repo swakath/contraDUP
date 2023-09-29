@@ -57,7 +57,8 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDeadSequence()
     {
-        _playerScore = _playerKillScored + (Time.time/10);
+        _playerScore = _playerKillScored + (Time.time * 10);
+        Debug.Log(_playerScore);
         SceneManager.LoadScene("ScoreCard");
     }
 
@@ -108,7 +109,7 @@ public class GameManager : MonoBehaviour
     public void StartPauseSequence()
     {
         Time.timeScale = 0f; // Pause the game
-        _playerScore = _playerKillScored + (Time.time / 10);
+        _playerScore = _playerKillScored + (Time.time * 10);
         //gameScene = GameObject.FindGameObjectWithTag("Scenes");
         //levelAudio = GameObject.FindGameObjectWithTag("Level_audio");
         //mainEventSystem = GameObject.FindGameObjectWithTag("MainEventSystem");
