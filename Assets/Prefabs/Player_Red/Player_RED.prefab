@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8537466264354634491}
   - component: {fileID: 6362066648498245466}
   m_Layer: 9
-  m_Name: Player
+  m_Name: Player_RED
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,8 +33,8 @@ Transform:
   m_GameObject: {fileID: 413081492534441539}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.63, y: -2.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -13.572, y: -3.153, z: 0}
+  m_LocalScale: {x: 1.014, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1930153391322481416}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 838225103
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1703184002, guid: 5cc45b4198808f6478e8650a2a99837a, type: 3}
+  m_Sprite: {fileID: 908676823, guid: 415c8f22f4d58404cafc28b026ce3e62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,18 +124,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.31087685, y: 0.16957784}
+  m_Offset: {x: -0.0052520633, y: -0.0022768974}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0.33333334, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 2.2666667}
+    oldSize: {x: 0.24, y: 0.34}
     newSize: {x: 0.24, y: 0.34}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0041618, y: 1.9444165}
+  m_Size: {x: 1.6240867, y: 2.2269235}
   m_EdgeRadius: 0
 --- !u!50 &3266202114991448539
 Rigidbody2D:
@@ -193,7 +193,7 @@ Animator:
   m_GameObject: {fileID: 413081492534441539}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 83f658a7acd7edf45a70ea48b08b945b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5def5130409f9f2489357d838f00db01, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -238,10 +238,8 @@ MonoBehaviour:
   components:
   - {fileID: 2917776273694999493}
   - {fileID: 701597526877761075}
-  hurtSound: {fileID: 8300000, guid: 8c11b43c246a10a46a84ca05368609e7, type: 3}
-  deathSound: {fileID: 8300000, guid: 9f95088c22ba7574a9d5985152216c5a, type: 3}
-  pain: {fileID: 8300000, guid: b8920e8c507a50940b67c3ab407d322c, type: 3}
-  addLife: {fileID: 8300000, guid: 701b52cdd246bc54d932e2c48d9998a7, type: 3}
+  hurtSound: {fileID: 8300000, guid: 86b5ff59be260d648952e4eb20f6c721, type: 3}
+  deathSound: {fileID: 8300000, guid: 00a22ef2b4569924b9212f28a3543f20, type: 3}
 --- !u!114 &6362066648498245466
 MonoBehaviour:
   m_ObjectHideFlags: 0
