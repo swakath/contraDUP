@@ -14,8 +14,7 @@ TagManager:
   - Enemy_bullet
   - Player_bullet
   - Scenes
-  - Level_audio
-  - MainEventSystem
+  - SoundManager
   layers:
   - Default
   - TransparentFX

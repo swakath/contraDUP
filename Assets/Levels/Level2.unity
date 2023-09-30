@@ -14666,7 +14666,7 @@ GameObject:
   - component: {fileID: 1455503123}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: Level_audio
+  m_TagString: SoundManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14794,6 +14794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 727771452956f3a42ab607a5ba38ed96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseAudio: {fileID: 8300000, guid: 58eaa0cc91c088f47aa558b130ac3030, type: 3}
+  levelAudio: {fileID: 8300000, guid: 29867f3b7b3c8bd49ad0d2061c49ae23, type: 3}
 --- !u!1 &1462715996
 GameObject:
   m_ObjectHideFlags: 0

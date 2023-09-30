@@ -7,7 +7,26 @@ public class Lvl_switch : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            SceneManager.LoadScene("Level3");
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            /*
+            if(currentSceneName == "Level1")
+                SceneManager.LoadScene("Level2");
+
+            else if (currentSceneName == "Level2")
+                SceneManager.LoadScene("Level3");
+            
+            else if (currentSceneName == "Level3")
+                SceneManager.LoadScene("ScoreCard");
+            */
+
+            if (currentSceneName == "Level1")
+                SceneManager.LoadScene("Level3");
+
+            else if (currentSceneName == "Level3")
+                SceneManager.LoadScene("ScoreCard");
+
+            else if (currentSceneName == "Level1")
+                SceneManager.LoadScene("ScoreCard");
         }
     }
 }
