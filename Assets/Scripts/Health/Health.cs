@@ -10,8 +10,8 @@ public class Health : MonoBehaviour
     private bool dead;
 
     [Header ("iFrames")]
-    [SerializeField] private float iFramesDuration;             // invulnerabilityDuration
-    [SerializeField] private int noOfFlashes;                   // to display before a player turns back to normal state
+    [SerializeField] public float iFramesDuration;             // invulnerabilityDuration
+    [SerializeField] public int noOfFlashes;                   // to display before a player turns back to normal state
     private SpriteRenderer spriteRend;                          // ref to sprite renderer to change the color of player during invulnerable duration 
 
     [Header ("Components")]
@@ -79,7 +79,8 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("hurt");
                 
                 //get iframes
-                StartCoroutine(Invulnerability());
+                //if(gameObject.CompareTag("Player"))
+                //    StartCoroutine(Invulnerability());
 
                 SoundManger.instance.PlaySound(hurtSound);
             } 
@@ -143,10 +144,14 @@ public class Health : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + _value, 0 , startingHealth);   
     }
 
-    private IEnumerator Invulnerability() 
+    public IEnumerator Invulnerability() 
     {
-        invulnerable = true;
+        Debug.Log("invul is called " + noOfFlashes);
         Physics2D.IgnoreLayerCollision(9, 10, true);       //ignores player and enemy collision present at layer 9,10
+
+        // spriteRend.color = new Color(92 / 255f, 92 / 255f, 92 / 255f, 0.5f);      //RGB code for blue + abit transparent
+        // yield return new WaitForSeconds(3f);
+        // spriteRend.color = Color.white;
 
         //invulnerability duration
         for (int i = 0; i < noOfFlashes; i++)
@@ -158,12 +163,17 @@ public class Health : MonoBehaviour
         }
 
         Physics2D.IgnoreLayerCollision(9, 10, false);       //invulerability duration ended, reset collision avoidance
-
+        Debug.Log("Invul exits");
         invulnerable = false;
     }
 
     private void Deactivate() 
     {
         gameObject.SetActive(false); 
+    }
+
+    public void startSheild(){
+        invulnerable = true;
+        StartCoroutine(Invulnerability());
     }
 }
