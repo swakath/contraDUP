@@ -26,6 +26,6 @@ public class NewBehaviourScript : MonoBehaviour
         }
         GameManager.Instance.gameObjectIndex = selectedIndex;
 
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level2");
     }
 }

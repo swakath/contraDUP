@@ -2224,7 +2224,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 8776497506202915997}
     m_Modifications:
     - target: {fileID: 421621685742647154, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_Name
@@ -2264,7 +2264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 119.94
+      value: 7.7400055
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2280,15 +2280,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2307,6 +2307,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
+--- !u!4 &614819793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7010334428199390432, guid: 15ef2c690ef29ff4e846ee425e81daf5, type: 3}
+  m_PrefabInstance: {fileID: 614819792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &681237728 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3183747515916309233, guid: de684292a3610c04196c7a330655d6b8, type: 3}
@@ -4139,12 +4144,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455503120}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.8923986, y: 0.68081427, z: 0.011966366}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1870819720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1455503123
 MonoBehaviour:
@@ -5195,6 +5200,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1455503122}
   - {fileID: 519420032}
   - {fileID: 1828907889}
   m_Father: {fileID: 0}
@@ -11854,6 +11860,7 @@ Transform:
   - {fileID: 290296468}
   - {fileID: 1969527535}
   - {fileID: 279505531}
+  - {fileID: 614819793}
   m_Father: {fileID: 1598826962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8776497506259455889
@@ -12031,5 +12038,3 @@ SceneRoots:
   - {fileID: 7488869817395126493}
   - {fileID: 125145467}
   - {fileID: 1598826962}
-  - {fileID: 1455503122}
-  - {fileID: 614819792}

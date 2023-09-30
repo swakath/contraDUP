@@ -20,13 +20,13 @@ public class Lvl_switch : MonoBehaviour
             */
 
             if (currentSceneName == "Level1")
+                SceneManager.LoadScene("ScoreCard");
+
+            else if (currentSceneName == "Level2")
                 SceneManager.LoadScene("Level3");
 
             else if (currentSceneName == "Level3")
-                SceneManager.LoadScene("ScoreCard");
-
-            else if (currentSceneName == "Level1")
-                SceneManager.LoadScene("ScoreCard");
+                SceneManager.LoadScene("Level1");
         }
     }
 }
