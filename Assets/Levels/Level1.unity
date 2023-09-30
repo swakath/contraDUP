@@ -5164,7 +5164,7 @@ RectTransform:
   m_Children:
   - {fileID: 1631283391}
   - {fileID: 367485101}
-  m_Father: {fileID: 1870819720}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5202,7 +5202,6 @@ Transform:
   m_Children:
   - {fileID: 1455503122}
   - {fileID: 519420032}
-  - {fileID: 1828907889}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1897006613
@@ -12033,6 +12032,7 @@ Animator:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1828907889}
   - {fileID: 1870819720}
   - {fileID: 1439075596}
   - {fileID: 7488869817395126493}

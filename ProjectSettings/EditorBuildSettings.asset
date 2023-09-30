@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/ScoreCard.unity
     guid: 4b4e1961b5d6a3441a8a2bb217b9cc41
+  - enabled: 1
+    path: Assets/Levels/Test.unity
+    guid: 882bbe93ccd2e4744ba936d81d5f7492
   m_configObjects: {}
