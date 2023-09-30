@@ -6,19 +6,26 @@ public class flameMove : MonoBehaviour
 {
     
     private string curButtonName;
-    private Vector3 bluePos = new Vector3(-6.51f, -0.5f, 90);
-    private Vector3 redPos = new Vector3(-6.51f, -1.5f, 90);
+    private Vector3 bluePos = new Vector3(-10.8f, 0.5f, 0f);
+    private Vector3 redPos = new Vector3(-10.8f, -0.5f, 0f);
+    private Vector3 greenPos = new Vector3(-10.8f, -1.5f, 0f);
+
     private string prevButton;
     private string BLUE_BUTTON = "Button_Blue";
     private string RED_BUTTON = "Button_Red";
+    private string GREEN_BUTTON = "Button_Green";
 
     private AudioSource myAudio;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         transform.position = bluePos;
         prevButton = BLUE_BUTTON;
         myAudio = GetComponent<AudioSource>();
+    }
+    void Start()
+    {
+        
     }
 
     // Update is called once per frame
@@ -38,6 +45,10 @@ public class flameMove : MonoBehaviour
             else if(curButtonName == RED_BUTTON)
             {
                 transform.position = redPos;
+            }
+            else if(curButtonName == GREEN_BUTTON)
+            {
+                transform.position = greenPos;
             }
         }
     }
