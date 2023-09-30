@@ -62,6 +62,12 @@ public class GameManager : MonoBehaviour
         Debug.Log(_playerScore);
         SceneManager.LoadScene("ScoreCard");
     }
+
+    public void UpdatePlayerScore()
+    {
+        _playerScore = _playerKillScored + (Time.time * 10);
+        Debug.Log(_playerScore);
+    }
     /*
     public void ActivateObjectInScene(string sceneName)
     {

@@ -8,6 +8,8 @@ public class Lvl_switch : MonoBehaviour
         if(collision.tag == "Player")
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
+            GameManager.Instance.UpdatePlayerScore();
+
             /*
             if(currentSceneName == "Level1")
                 SceneManager.LoadScene("Level2");
