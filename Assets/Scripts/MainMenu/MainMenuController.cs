@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    /*
+        Main entry scene controller. I dentify the user input using buttons and loads the corresponding 
+        level and starts the game. Also projects the game instruction for 10s before the start of the actual game.
+    */
     private string curButtonName;
     private string BLUE_BUTTON = "Button_Blue";
     private string RED_BUTTON = "Button_Red";
@@ -34,7 +38,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     IEnumerator StartGame()
     {
-        yield return new WaitForSeconds(9f); // Delay for 10 seconds
+        yield return new WaitForSeconds(1f); // Delay for 10 seconds
         SceneManager.LoadScene(startLevel);
         Debug.Log("Starting Game");
     }

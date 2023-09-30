@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    /*
+        GameManage is a singleton class that syncs infromation between scenes.
+        Has Player Object, health and score information.
+    */
     public static GameManager Instance;
 
     [SerializeField]
@@ -48,6 +52,7 @@ public class GameManager : MonoBehaviour
         get { return _playerScore; }
     }
 
+    // API to increment the player kill score metrixs.
     public void IncrementPlayerKillScored(float killScore)
     {
         if (killScore > 0)
@@ -56,6 +61,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // API called when player is dead to display the ScoreCard
     public void PlayerDeadSequence()
     {
         _playerScore = _playerKillScored + (Time.time * 10);
@@ -63,6 +69,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("ScoreCard");
     }
 
+    // API to Update Player Score , used in end of each scenes 
     public void UpdatePlayerScore()
     {
         _playerScore = _playerKillScored + (Time.time * 10);
@@ -113,6 +120,10 @@ public class GameManager : MonoBehaviour
         }
     } */
 
+    /*
+        API to initiate Pause menu within a scene. The play time is set to 0 and camera position is set to 
+        Pause Canvas UI. The exit position for camera from the level is stored.
+    */
     public void StartPauseSequence()
     {
         Time.timeScale = 0f; // Pause the game
@@ -135,6 +146,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /*
+        API to End Pause menu within a scene. The play time is set to 1 and camera position is set to 
+        the last camera position exited from the player scene.
+    */
     public void StopPauseSequence()
     { 
         camera = GameObject.FindWithTag("MainCamera");
@@ -166,6 +181,8 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    /*Subscription to SceneManger Events*/
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnLevelFinishLoading;
@@ -175,6 +192,8 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnLevelFinishLoading;
     }
+
+    /*Spawning player in each level based and initiating events to set the level inital conditions*/
     void OnLevelFinishLoading(Scene scene, LoadSceneMode mode)
     {
         if (scene.name == "Level1")

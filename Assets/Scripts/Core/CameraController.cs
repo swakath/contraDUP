@@ -15,6 +15,7 @@ public class CameraController : MonoBehaviour
         player = null;
     }
 
+    // Camera subscribes to GameManage event to get dynamically spaned Player object in the Game.
     private void OnEnable()
     {
         GameManager.OnObjectInstantiated += HandleObjectInstantiated;
@@ -25,6 +26,10 @@ public class CameraController : MonoBehaviour
         GameManager.OnObjectInstantiated -= HandleObjectInstantiated;
     }
 
+    /* 
+        Deligate Function for the subscribed GameManger Event
+        Get the player tranform component as sets it to the local variable
+    */
     private void HandleObjectInstantiated(GameObject instantiatedObject)
     {
         if (instantiatedObject.tag == "Player")
@@ -34,6 +39,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    // Update function to enable camera to follow the player.
     private void Update()
     {
         //Player Camera

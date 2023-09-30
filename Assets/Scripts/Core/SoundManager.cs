@@ -7,6 +7,12 @@ public class SoundManger : MonoBehaviour
     public AudioClip levelAudio;
     private AudioSource source;
 
+    /* Sound Manager plays the background music for the current scene.
+       The Class has two serialized audio clip feilds pauseAudio for the pause screen and
+       levelAudio for current levels background music. 
+
+       Provides API for enabling the different audio clips.
+    */
     private void Awake()
     {
         source = GetComponent<AudioSource>();
@@ -22,6 +28,7 @@ public class SoundManger : MonoBehaviour
             Destroy(gameObject);
     }
 
+    //Default plays the levelAudio Clip
     private void Start()
     {
         PlayLevelAudio();
@@ -34,12 +41,14 @@ public class SoundManger : MonoBehaviour
         }
     }
 
+    // API to Play levelAudio Clip
     public void PlayLevelAudio()
     {
         source.clip = levelAudio;
         source.Play();
     }
 
+    // API to Play pauseAudio Clip
     public void PlayPauseAudio()
     {
         source.clip = pauseAudio;
